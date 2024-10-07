@@ -4,22 +4,15 @@ import { useEffect, useState } from "react";
 
 const Recursos = () => {
   const [artistas, setArtistas] = useState([]);
-  const [albumes, setAlbumes] = useState([]);
 
   useEffect(() => {
     const obtenerArtistas = async () => {
       const res = await fetch("/api/artistas");
       const data = await res.json();
       setArtistas(data);
-
-      const resAlbumes = await fetch("/api/artistas/albumes");
-      const dataAlbumes = await resAlbumes.json();
-      setAlbumes(dataAlbumes);
     };
     obtenerArtistas();
   }, []);
-
-  console.log(albumes);
 
   return (
     <div className="w-7/12 h-full mb-40">
@@ -54,7 +47,7 @@ const Recursos = () => {
 
       <div>
         <h4 className="text-3xl font-semibold">Cuando usar la API?</h4>
-        <p className="text-xl my-5">
+        <p className="my-5">
           Puedes usar la API para obtener informacion de tus artistas favoritos
           y sus canciones en formato JSON para tu aplicacion web o movil.
         </p>
