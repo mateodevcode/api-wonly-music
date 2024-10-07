@@ -2,7 +2,8 @@ import { NextResponse } from "next/server";
 import { connectMongoDB } from "@/libs/mongoDB";
 import Artista from "@/models/artista";
 
-export async function GET() {
+
+export async function GET(req, res) {
   await connectMongoDB();
   const Artistas = await Artista.find({});
   return NextResponse.json(Artistas);
