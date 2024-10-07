@@ -1,37 +1,33 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# API - Wonly Music
 
 ## Deploy on Vercel
+Para visualizar la pagina desplegada en GitHub Pages puedes dar click en el siguiente enlace. [Ir a la web](https://api-wonly-music.vercel.app)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**🎬🍿 ¡Descubre la API - Wonly Music! Tu Destino Gratis para Series y Películas 🍿🎬** ¡Hola a todos! 😄 Estoy súper emocionado de presentarles **API - Wonly Music**, una API REST diseñada para que disfrutes de tus series y películas favoritas totalmente gratis. 🎉 He creado esta API con **Next.js**, **Tailwind CSS**, combinando tecnología moderna con una experiencia de usuario increíble. 🚀
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# api-wonly-music
+![image](https://github.com/user-attachments/assets/47866c41-98b4-4ff3-98d4-877bb743c993)
+
+
+## 🛠️ Tecnologías Utilizadas:
+- **Next.js:** La API está construida con Next.js, lo que facilita el renderizado del lado del servidor para respuestas rápidas y optimizadas, además de una experiencia SEO amigable. ⚡💻
+- **Tailwind CSS:** Utilizamos Tailwind CSS para crear un diseño limpio y moderno, asegurando que cada interfaz sea agradable a la vista y fácil de usar, tanto para desarrolladores como para usuarios finales. 🎨📱
+- **Sin Autenticación:** Esta API está diseñada para ser completamente accesible sin autenticación. Todos los endpoints son públicos, lo que facilita el acceso directo al contenido de series y películas, sin necesidad de crear cuentas o lidiar con procesos complicados de inicio de sesión. 🔓
+- **Deploy en Vercel:** La API está desplegada en Vercel, garantizando un rendimiento rápido y confiable desde cualquier lugar del mundo, con una infraestructura escalable y segura. 🌍🚀
+
+## 🚀 Características de la API:
+- **Acceso Totalmente Gratuito:** Sin suscripciones, sin pagos, y sin autenticación. La API es 100% gratuita y abierta para que puedas integrar contenido fácilmente. 💸✨
+- **Catálogo Extenso:** Explora una gran variedad de películas y series, organizadas por género, popularidad, año de lanzamiento, y mucho más. 🎥📚
+- **Búsqueda por Título:** Encuentra rápidamente lo que necesitas utilizando endpoints de búsqueda que te permiten buscar por título de película o serie, para que siempre encuentres tu contenido favorito. 🔍
+- **Filtros por Género y Año:** ¿Buscas algo específico? Filtra por género, año de lanzamiento y otros criterios para encontrar exactamente lo que deseas ver. 🎬
+- **Respuesta Rápida:** Gracias a Next.js, la API ofrece tiempos de respuesta rápidos y un rendimiento óptimo para que puedas acceder al contenido sin esperas. 🚀⚡
+
+## 🌟 Beneficios de la API de Wonly Movies:
+- **Integración Sencilla:** Ideal para desarrolladores que quieren agregar contenido multimedia a sus aplicaciones sin complicarse. 💻🛠️
+- **Experiencia de Usuario Agradable:** Con una interfaz construida en Next.js y Tailwind CSS, la experiencia de usuario es intuitiva y visualmente atractiva. 🎨👌
+- **Sin Restricciones:** Disfruta de contenido sin preocuparte por límites de acceso o autenticación. Todo es libre para que lo uses y compartas. 🔓
+
+## 🌐 Visita la API de Wonly Movies y empieza a disfrutar del mejor contenido gratis y sin restricciones. Ya sea que estés creando una plataforma de streaming o simplemente quieras explorar, esta API tiene todo lo que necesitas. 📽️✨
+
+👉 [ir a la web🌐](https://api-wonly-music.vercel.app/)
+
+¡Espero que disfrutes esta experiencia sin complicaciones y encuentres la serie o película que buscas en un abrir y cerrar de ojos! 🎬🚀🍿
