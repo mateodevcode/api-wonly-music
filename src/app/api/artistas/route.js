@@ -3,7 +3,7 @@ import { connectMongoDB } from "@/libs/mongoDB";
 import Artista from "@/models/artista";
 
 
-export async function GET(req, res) {
+export async function GET() {
   await connectMongoDB();
   const Artistas = await Artista.find({});
   return NextResponse.json(Artistas);
